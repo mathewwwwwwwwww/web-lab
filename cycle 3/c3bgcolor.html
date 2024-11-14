@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>change background color</title>
+		<style>
+		body{
+			text-align:center;
+			margin-top:100px;
+			font-family:arial,sans-serif;
+		}
+		button{
+			padding:15px 30px;
+			font-size:18px;
+			cursor:pointer;
+			}
+	</style>
+	<body>
+		<button id="color button">change background</button>
+	<script>
+		
+
+
+document.body.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'red';
+});
+
+document.body.addEventListener('dblclick', () => {
+    document.body.style.backgroundColor = 'blue';
+});
+
+	</script>
+	</body>
+	</html>	
+		
